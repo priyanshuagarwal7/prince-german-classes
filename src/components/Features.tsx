@@ -5,46 +5,46 @@ import { Award, Calendar, BookOpen, Users, MessageSquare, Lightbulb } from 'luci
 const Features = () => {
   const features = [
     {
-      icon: <Calendar className="h-8 w-8 text-purple-600" />,
-      title: "Annual Conferences",
-      description: "Participate in our prestigious annual conferences showcasing cutting-edge research and technological advances."
+      icon: <Calendar className="h-8 w-8 text-lavender-600" />,
+      title: "Regular Classes",
+      description: "Join our structured German language classes tailored to different proficiency levels and specific career goals."
     },
     {
-      icon: <BookOpen className="h-8 w-8 text-purple-600" />,
-      title: "Publications",
-      description: "Access high-quality publications and journals featuring latest developments in circuits and systems."
+      icon: <BookOpen className="h-8 w-8 text-lavender-600" />,
+      title: "Quality Materials",
+      description: "Access high-quality study materials and resources designed to help you master the German language effectively."
     },
     {
-      icon: <Users className="h-8 w-8 text-purple-600" />,
-      title: "Networking",
-      description: "Connect with leading researchers, industry professionals, and students from around the world."
+      icon: <Users className="h-8 w-8 text-lavender-600" />,
+      title: "Expert Teachers",
+      description: "Learn from experienced native speakers and qualified German language educators with professional teaching methods."
     },
     {
-      icon: <Award className="h-8 w-8 text-purple-600" />,
-      title: "Awards & Recognition",
-      description: "Recognizing excellence and innovation through our prestigious awards program."
+      icon: <Award className="h-8 w-8 text-lavender-600" />,
+      title: "Certification",
+      description: "Prepare for and obtain internationally recognized German language certifications that enhance your career prospects."
     },
     {
-      icon: <MessageSquare className="h-8 w-8 text-purple-600" />,
-      title: "Discussion Forums",
-      description: "Engage in stimulating discussions on emerging topics and challenges in the field."
+      icon: <MessageSquare className="h-8 w-8 text-lavender-600" />,
+      title: "Conversation Practice",
+      description: "Develop your speaking skills through regular conversation sessions and practical language application."
     },
     {
-      icon: <Lightbulb className="h-8 w-8 text-purple-600" />,
-      title: "Research Opportunities",
-      description: "Discover collaborative research opportunities and funding possibilities for innovative projects."
+      icon: <Lightbulb className="h-8 w-8 text-lavender-600" />,
+      title: "Career Guidance",
+      description: "Receive guidance on career pathways in Germany, especially for nursing and healthcare professions."
     }
   ];
 
   return (
-    <section className="py-20 px-6 md:px-12 bg-gradient-to-b from-white to-purple-50">
+    <section className="py-20 px-6 md:px-12 bg-gradient-to-b from-white to-lavender-50">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16">
           <h2 className="section-heading">
             What We <span className="gradient-text">Offer</span>
           </h2>
           <p className="section-subheading">
-            EuroCAS provides numerous benefits and opportunities for professionals and students in circuits and systems.
+            Prince German provides comprehensive language training and career preparation for professionals seeking opportunities in Germany.
           </p>
         </div>
         
@@ -54,7 +54,7 @@ const Features = () => {
               key={index} 
               className="glass-card p-8 transition-all duration-300 hover:shadow-md hover:-translate-y-1"
             >
-              <div className="w-16 h-16 mb-6 rounded-xl bg-purple-100 flex items-center justify-center">
+              <div className="w-16 h-16 mb-6 rounded-xl bg-lavender-100 flex items-center justify-center">
                 {feature.icon}
               </div>
               <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>

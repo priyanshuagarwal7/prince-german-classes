@@ -42,18 +42,18 @@ const Navbar = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2" onClick={closeMenu}>
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center">
-              <span className="text-white font-bold text-xl">E</span>
+            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-lavender-400 to-lavender-600 flex items-center justify-center">
+              <span className="text-white font-bold text-xl">P</span>
             </div>
-            <span className="text-xl font-bold hidden sm:inline-block text-foreground">EuroCAS</span>
+            <span className="text-xl font-bold hidden sm:inline-block text-foreground">Prince German</span>
           </Link>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
             <Link to="/" className={`nav-link ${isActive('/') ? 'active' : ''}`}>Home</Link>
             <Link to="/about" className={`nav-link ${isActive('/about') ? 'active' : ''}`}>About</Link>
-            <Link to="/events" className={`nav-link ${isActive('/events') ? 'active' : ''}`}>Events</Link>
-            <Link to="/resources" className={`nav-link ${isActive('/resources') ? 'active' : ''}`}>Resources</Link>
+            <Link to="/ausbildung" className={`nav-link ${isActive('/ausbildung') ? 'active' : ''}`}>Ausbildung</Link>
+            <Link to="/nursing-program" className={`nav-link ${isActive('/nursing-program') ? 'active' : ''}`}>Nursing Program</Link>
             <Link to="/contact" className={`nav-link ${isActive('/contact') ? 'active' : ''}`}>Contact</Link>
           </div>
           
@@ -72,35 +72,35 @@ const Navbar = () => {
         <div className="flex flex-col space-y-6 text-lg">
           <Link 
             to="/" 
-            className={`${isActive('/') ? 'text-purple-600 font-medium' : 'text-foreground'}`}
+            className={`${isActive('/') ? 'text-lavender-600 font-medium' : 'text-foreground'}`}
             onClick={closeMenu}
           >
             Home
           </Link>
           <Link 
             to="/about" 
-            className={`${isActive('/about') ? 'text-purple-600 font-medium' : 'text-foreground'}`}
+            className={`${isActive('/about') ? 'text-lavender-600 font-medium' : 'text-foreground'}`}
             onClick={closeMenu}
           >
             About
           </Link>
           <Link 
-            to="/events" 
-            className={`${isActive('/events') ? 'text-purple-600 font-medium' : 'text-foreground'}`}
+            to="/ausbildung" 
+            className={`${isActive('/ausbildung') ? 'text-lavender-600 font-medium' : 'text-foreground'}`}
             onClick={closeMenu}
           >
-            Events
+            Ausbildung
           </Link>
           <Link 
-            to="/resources" 
-            className={`${isActive('/resources') ? 'text-purple-600 font-medium' : 'text-foreground'}`}
+            to="/nursing-program" 
+            className={`${isActive('/nursing-program') ? 'text-lavender-600 font-medium' : 'text-foreground'}`}
             onClick={closeMenu}
           >
-            Resources
+            Nursing Program
           </Link>
           <Link 
             to="/contact" 
-            className={`${isActive('/contact') ? 'text-purple-600 font-medium' : 'text-foreground'}`}
+            className={`${isActive('/contact') ? 'text-lavender-600 font-medium' : 'text-foreground'}`}
             onClick={closeMenu}
           >
             Contact
