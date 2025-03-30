@@ -50,7 +50,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-purple-600 mr-3 mt-0.5" />
-                <span className="text-muted-foreground">6 MANU MARG KABIR COLONY SANT SUKHDEV SHAH AURIGYAN SANSTHAN ALWAR (RAJ.)301001</span>
+                <span className="text-muted-foreground">6 Manu Marg Kabir Colony Sant Sukhdev Shah Aurigyan Sansthan Alwar (Raj.) 301001</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-purple-600 mr-3" />
@@ -69,11 +69,6 @@ const Footer = () => {
             <p className="text-sm text-muted-foreground mb-4 md:mb-0">
               © {new Date().getFullYear()} Prince German Classes. All rights reserved.
             </p>
-            <div className="flex space-x-4 text-sm">
-              <a href="#" className="text-muted-foreground hover:text-purple-600 transition-colors">Privacy Policy</a>
-              <a href="#" className="text-muted-foreground hover:text-purple-600 transition-colors">Terms of Service</a>
-              <a href="#" className="text-muted-foreground hover:text-purple-600 transition-colors">Cookie Policy</a>
-            </div>
           </div>
         </div>
       </div>

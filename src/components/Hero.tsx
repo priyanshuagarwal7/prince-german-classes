@@ -16,19 +16,15 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="order-2 lg:order-1 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <div className="inline-block px-4 py-2 bg-purple-100 rounded-full mb-6">
-              <p className="text-purple-700 font-medium text-sm">European Conference on Circuits and Systems</p>
+              <p className="text-purple-700 font-medium text-sm">Prince German Classes</p>
             </div>
             <h1 className="h1 mb-6">
-              Advancing <span className="gradient-text">Innovation</span> in Circuits and Systems
+              Advancing <span className="gradient-text">Innovation</span> in German Language Learning
             </h1>
             <p className="p-large mb-8 max-w-xl">
-              Connecting researchers, industry professionals, and students to drive forward the boundaries of electronic circuit and system design.
+              Connecting aspiring professionals with quality German language education to pursue successful careers in Germany.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link to="/events" className="button-primary">
-                Upcoming Events
-                <ArrowRight className="inline-block ml-2 h-5 w-5" />
-              </Link>
               <Link to="/about" className="button-secondary">
                 Learn More
               </Link>
@@ -46,14 +42,14 @@ const Hero = () => {
                     className="object-cover w-full h-full"
                   />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">2024 Annual Conference</h3>
-                <p className="text-muted-foreground mb-4">Join us in Vienna for the latest advancements in circuit design, signal processing, and system integration.</p>
+                <h3 className="text-xl font-semibold mb-2">German Language Programs</h3>
+                <p className="text-muted-foreground mb-4">Join us for comprehensive German language training designed for professionals seeking opportunities in Germany.</p>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <div className="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
-                    <span className="text-sm font-medium">Registration Open</span>
+                    <span className="text-sm font-medium">Enrolling Now</span>
                   </div>
-                  <Link to="/events" className="text-purple-600 text-sm font-medium hover:text-purple-700 transition-colors">
+                  <Link to="/about" className="text-purple-600 text-sm font-medium hover:text-purple-700 transition-colors">
                     Details →
                   </Link>
                 </div>

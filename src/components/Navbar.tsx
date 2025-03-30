@@ -45,7 +45,7 @@ const Navbar = () => {
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-lavender-400 to-lavender-600 flex items-center justify-center">
               <span className="text-white font-bold text-xl">P</span>
             </div>
-            <span className="text-xl font-bold hidden sm:inline-block text-foreground">Prince German</span>
+            <span className="text-xl font-bold hidden sm:inline-block text-foreground">Prince German Classes</span>
           </Link>
           
           {/* Desktop Navigation */}

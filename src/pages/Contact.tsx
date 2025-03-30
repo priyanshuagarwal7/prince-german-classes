@@ -33,7 +33,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">Our Location</h3>
-                      <p className="text-muted-foreground">6 MANU MARG KABIR COLONY SANT SUKHDEV SHAH AURIGYAN SANSTHAN ALWAR (RAJ.)301001</p>
+                      <p className="text-muted-foreground">6 Manu Marg Kabir Colony Sant Sukhdev Shah Aurigyan Sansthan Alwar (Raj.) 301001</p>
                     </div>
                   </div>
                   

@@ -15,19 +15,19 @@ const About = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-purple-600 mr-3 mt-1 flex-shrink-0" />
-                  <p>To foster collaboration and innovation within the circuits and systems community across Europe and worldwide.</p>
+                  <p>To provide quality German language education for professionals seeking opportunities in Germany.</p>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-purple-600 mr-3 mt-1 flex-shrink-0" />
-                  <p>To provide a platform for knowledge exchange and professional development for researchers and practitioners.</p>
+                  <p>To create a platform for knowledge exchange and professional development for aspiring healthcare workers.</p>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-purple-600 mr-3 mt-1 flex-shrink-0" />
-                  <p>To advance the state-of-the-art in circuits and systems through promotion of cutting-edge research.</p>
+                  <p>To advance language learning through innovative teaching methods and cultural immersion.</p>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-purple-600 mr-3 mt-1 flex-shrink-0" />
-                  <p>To bridge the gap between academia and industry to accelerate innovation and application.</p>
+                  <p>To bridge the gap between education and employment to help students secure jobs in Germany.</p>
                 </div>
               </div>
               
@@ -47,34 +47,30 @@ const About = () => {
           
           <div>
             <div className="inline-block px-4 py-2 bg-purple-100 rounded-full mb-6">
-              <p className="text-purple-700 font-medium text-sm">About EuroCAS</p>
+              <p className="text-purple-700 font-medium text-sm">About Prince German Classes</p>
             </div>
             
-            <h2 className="h2 mb-6">Pioneering Excellence in <span className="gradient-text">Circuits and Systems</span></h2>
+            <h2 className="h2 mb-6">Pioneering Excellence in <span className="gradient-text">German Language Education</span></h2>
             
             <p className="text-lg text-muted-foreground mb-6">
-              The European Conference on Circuits and Systems (EuroCAS) is a premier forum for researchers, professionals, and students in the field of circuit and system design.
+              Prince German Classes is a premier forum for German language education and career preparation for professionals seeking opportunities in Germany.
             </p>
             
             <p className="text-lg text-muted-foreground mb-8">
-              Since our founding in 1995, we have grown to become one of the most respected organizations in our field, with members from over 30 countries. Our annual conference brings together more than 500 participants to share knowledge, discuss emerging trends, and form valuable collaborations.
+              Since our founding in 2022, we have grown to become a respected institution in our field, with students from 2 countries. Our programs bring together more than 50 participants annually to learn German language and prepare for successful careers in Germany.
             </p>
             
             <div className="grid grid-cols-2 gap-6 mb-8">
               <div className="border border-purple-100 rounded-lg p-4 text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">30+</div>
+                <div className="text-3xl font-bold text-purple-600 mb-2">2+</div>
                 <p className="text-sm text-muted-foreground">Countries Represented</p>
               </div>
               <div className="border border-purple-100 rounded-lg p-4 text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">500+</div>
+                <div className="text-3xl font-bold text-purple-600 mb-2">50+</div>
                 <p className="text-sm text-muted-foreground">Annual Participants</p>
               </div>
               <div className="border border-purple-100 rounded-lg p-4 text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">200+</div>
-                <p className="text-sm text-muted-foreground">Research Papers</p>
-              </div>
-              <div className="border border-purple-100 rounded-lg p-4 text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">25+</div>
+                <div className="text-3xl font-bold text-purple-600 mb-2">2+</div>
                 <p className="text-sm text-muted-foreground">Years of Excellence</p>
               </div>
             </div>

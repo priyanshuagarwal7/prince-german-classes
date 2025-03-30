@@ -39,22 +39,22 @@ const About = () => {
                   <div className="grid grid-cols-2 gap-4">
                     <div className="glass-card-purple p-4 text-center">
                       <Users className="h-6 w-6 text-purple-600 mx-auto mb-2" />
-                      <h3 className="text-xl font-bold mb-1">500+</h3>
+                      <h3 className="text-xl font-bold mb-1">50+</h3>
                       <p className="text-sm text-muted-foreground">Students Trained</p>
                     </div>
                     <div className="glass-card-purple p-4 text-center">
                       <BookOpen className="h-6 w-6 text-purple-600 mx-auto mb-2" />
-                      <h3 className="text-xl font-bold mb-1">10+</h3>
+                      <h3 className="text-xl font-bold mb-1">5+</h3>
                       <p className="text-sm text-muted-foreground">Course Offerings</p>
                     </div>
                     <div className="glass-card-purple p-4 text-center">
                       <Award className="h-6 w-6 text-purple-600 mx-auto mb-2" />
-                      <h3 className="text-xl font-bold mb-1">5+</h3>
+                      <h3 className="text-xl font-bold mb-1">2+</h3>
                       <p className="text-sm text-muted-foreground">Years of Excellence</p>
                     </div>
                     <div className="glass-card-purple p-4 text-center">
                       <Globe className="h-6 w-6 text-purple-600 mx-auto mb-2" />
-                      <h3 className="text-xl font-bold mb-1">15+</h3>
+                      <h3 className="text-xl font-bold mb-1">2+</h3>
                       <p className="text-sm text-muted-foreground">Countries Represented</p>
                     </div>
                   </div>
