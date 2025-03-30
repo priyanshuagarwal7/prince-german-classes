@@ -50,15 +50,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-purple-600 mr-3 mt-0.5" />
-                <span className="text-muted-foreground">123 Language Avenue, Berlin, Germany, DE-10115</span>
+                <span className="text-muted-foreground">6 MANU MARG KABIR COLONY SANT SUKHDEV SHAH AURIGYAN SANSTHAN ALWAR (RAJ.)301001</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-purple-600 mr-3" />
-                <a href="mailto:info@princegerman.com" className="text-muted-foreground hover:text-purple-600 transition-colors">info@princegerman.com</a>
+                <a href="mailto:prince.bajaj2017start@gmail.com" className="text-muted-foreground hover:text-purple-600 transition-colors">prince.bajaj2017start@gmail.com</a>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-purple-600 mr-3" />
-                <a href="tel:+49123456789" className="text-muted-foreground hover:text-purple-600 transition-colors">+49 123 456 789</a>
+                <a href="tel:+918949887074" className="text-muted-foreground hover:text-purple-600 transition-colors">+91 8949887074</a>
               </li>
             </ul>
           </div>

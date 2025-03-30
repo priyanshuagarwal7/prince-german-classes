@@ -33,7 +33,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">Our Location</h3>
-                      <p className="text-muted-foreground">123 Language Avenue, Berlin, Germany, DE-10115</p>
+                      <p className="text-muted-foreground">6 MANU MARG KABIR COLONY SANT SUKHDEV SHAH AURIGYAN SANSTHAN ALWAR (RAJ.)301001</p>
                     </div>
                   </div>
                   
@@ -44,7 +44,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-medium mb-1">Email Us</h3>
                       <p className="text-muted-foreground">
-                        <a href="mailto:info@princegerman.com" className="hover:text-lavender-600 transition-colors">info@princegerman.com</a>
+                        <a href="mailto:prince.bajaj2017start@gmail.com" className="hover:text-lavender-600 transition-colors">prince.bajaj2017start@gmail.com</a>
                       </p>
                     </div>
                   </div>
@@ -56,7 +56,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-medium mb-1">Call Us</h3>
                       <p className="text-muted-foreground">
-                        <a href="tel:+49123456789" className="hover:text-lavender-600 transition-colors">+49 123 456 789</a>
+                        <a href="tel:+918949887074" className="hover:text-lavender-600 transition-colors">+91 8949887074</a>
                       </p>
                     </div>
                   </div>
@@ -65,11 +65,17 @@ const Contact = () => {
               
               <div className="glass-card p-8">
                 <h2 className="text-2xl font-semibold mb-6">Visit Our Office</h2>
-                <div className="aspect-video rounded-lg overflow-hidden mb-4 bg-lavender-100">
-                  {/* Replace with your own map or image */}
-                  <div className="w-full h-full flex items-center justify-center text-lavender-600">
-                    <p className="text-center">Map will be displayed here</p>
-                  </div>
+                <div className="aspect-video rounded-lg overflow-hidden mb-4">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.1754080282893!2d76.61326607576611!3d27.52143257624879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3971c2b3ac290fdd%3A0xf97c1532f97fdb7e!2sSant%20Sukhdev%20Shah%20Aueigyan%20Sansthan%20-%20Manu%20Marg%20Kabir%20Colony!5e0!3m2!1sen!2sin!4v1717164841592!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="100%" 
+                    style={{border:0}} 
+                    allowFullScreen={true} 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="w-full h-full"
+                  ></iframe>
                 </div>
                 <p className="text-muted-foreground mb-4">
                   Our office is open Monday to Friday from 9:00 AM to 5:00 PM. Feel free to visit us during these hours.
