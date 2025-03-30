@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -267,25 +266,6 @@ const Ausbildung = () => {
                 </div>
               </TabsContent>
             </Tabs>
-          </div>
-        </section>
-        
-        {/* Call to Action Section */}
-        <section className="py-16 px-6 md:px-12 bg-gradient-to-r from-lavender-500 to-lavender-600 text-white">
-          <div className="container mx-auto max-w-5xl text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Start Your Career Journey in Germany?</h2>
-            <p className="text-lg mb-8 max-w-3xl mx-auto">
-              Join our Ausbildung preparation program and take the first step toward a successful career in Germany. 
-              Our expert team will guide you through every stage of the process.
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <a href="/contact" className="px-8 py-3 bg-white text-lavender-600 font-medium rounded-lg hover:bg-lavender-50 transition-colors">
-                Contact Us
-              </a>
-              <a href="#" className="px-8 py-3 bg-transparent border border-white text-white font-medium rounded-lg hover:bg-white/10 transition-colors">
-                Download Brochure
-              </a>
-            </div>
           </div>
         </section>
       </main>
