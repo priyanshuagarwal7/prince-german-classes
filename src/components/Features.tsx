@@ -6,7 +6,7 @@ const Features = () => {
   const features = [
     {
       icon: <Calendar className="h-8 w-8 text-lavender-600" />,
-      title: "Regular Classes",
+      title: "Weekdays/Weekends classes available with flexibility",
       description: "Join our structured German language classes tailored to different proficiency levels and specific career goals."
     },
     {
@@ -32,7 +32,7 @@ const Features = () => {
     {
       icon: <Lightbulb className="h-8 w-8 text-lavender-600" />,
       title: "Career Guidance",
-      description: "Receive guidance on career pathways in Germany, especially for nursing and healthcare professions."
+      description: "Receive guidance on career pathways in Germany, for for all job seekers/ international students/ healthcare professionals (nurses & physio)."
     }
   ];
 
@@ -44,7 +44,7 @@ const Features = () => {
             What We <span className="gradient-text">Offer</span>
           </h2>
           <p className="section-subheading">
-            Prince German provides comprehensive language training and career preparation for professionals seeking opportunities in Germany.
+            We provide comprehensive language training and career preparation for professionals seeking opportunities in Germany , offering small size classes in both online/offline mode.
           </p>
         </div>
         
